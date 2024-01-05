@@ -1,7 +1,8 @@
 repo_name: thachlp/spring-data-jpa
 report_id: baba5eb955da8c32fc13a49a8b9dd965
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T02:40:30+00:00'
+timestamp: '2024-01-05T09:02:49+00:00'
 requested_by: sxhinzvc
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/thachlp/spring-data-jpa
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -25,7 +27,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: spring-data-jpa/src/test/resources/scripts/schema-stored-procedures.sql
+  detection_source_url: https://github.com/thachlp/spring-data-jpa/blob/main/spring-data-jpa/src/test/resources/scripts/h2-init.sql
+  detection_source: spring-data-jpa/src/test/resources/scripts/h2-init.sql
   last_updated_by: Greg L. Turnquist
   last_updated_on: 2023-05-17 20:47:19.000000000 Z
 - name: QueryDSL
@@ -37,7 +40,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/3881/da8da0c0e6dfbfc596f787ade49381a6_400x400.png
-  detection_source: spring-data-jpa/pom.xml
+  detection_source_url: https://github.com/thachlp/spring-data-jpa/blob/main/spring-data-envers/pom.xml
+  detection_source: spring-data-envers/pom.xml
   last_updated_by: Jens Schauder
   last_updated_on: 2021-09-27 08:51:09.000000000 Z
 - name: Spring Framework
@@ -50,6 +54,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/thachlp/spring-data-jpa/blob/main/spring-data-jpa/pom.xml
   detection_source: spring-data-jpa/pom.xml
   last_updated_by: Jens Schauder
   last_updated_on: 2021-09-27 08:51:09.000000000 Z
@@ -61,7 +66,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
-  detection_source: spring-data-jpa/pom.xml
+  detection_source_url: https://github.com/thachlp/spring-data-jpa/blob/main/spring-data-envers/pom.xml
+  detection_source: spring-data-envers/pom.xml
   last_updated_by: Jens Schauder
   last_updated_on: 2021-09-27 08:51:09.000000000 Z
 - name: HSQLDB
@@ -72,6 +78,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/6958/yQ4763oZ_400x400.jpg
+  detection_source_url: https://github.com/thachlp/spring-data-jpa/blob/main/spring-data-jpa/pom.xml
   detection_source: spring-data-jpa/pom.xml
   last_updated_by: Jens Schauder
   last_updated_on: 2021-09-27 08:51:09.000000000 Z
@@ -83,6 +90,7 @@ tools:
   category: Data Stores
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/1756/1uNl_IZX.png
+  detection_source_url: https://github.com/thachlp/spring-data-jpa/blob/main/spring-data-jpa/src/test/resources/hibernate.xml
   detection_source: spring-data-jpa/src/test/resources/hibernate.xml
   last_updated_by: Oliver Drotbohm
   last_updated_on: 2022-01-28 13:34:22.000000000 Z
@@ -94,6 +102,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/thachlp/spring-data-jpa/blob/main/spring-data-jpa/pom.xml
   detection_source: spring-data-jpa/pom.xml
   last_updated_by: Jens Schauder
   last_updated_on: 2021-09-27 08:51:09.000000000 Z
@@ -107,7 +116,8 @@ tools:
   category: Data Stores
   sub_category: Database Tools
   image_url: https://img.stackshare.io/service/7624/IG6D4Ro2_400x400.png
-  detection_source: spring-data-jpa/pom.xml
+  detection_source_url: https://github.com/thachlp/spring-data-jpa/blob/main/spring-data-envers/pom.xml
+  detection_source: spring-data-envers/pom.xml
   last_updated_by: Jens Schauder
   last_updated_on: 2021-09-27 08:51:09.000000000 Z
 - name: Git
@@ -118,6 +128,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/thachlp/spring-data-jpa
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -127,7 +138,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/project.yml"
+  detection_source_url: https://github.com/thachlp/spring-data-jpa/blob/main/.github/workflows/deploy-docs.yml
+  detection_source: ".github/workflows/deploy-docs.yml"
   last_updated_by: Rob Winch
   last_updated_on: 2023-06-27 17:23:09.000000000 Z
 - name: Logback
@@ -138,7 +150,8 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
-  detection_source: spring-data-jpa/src/test/resources/logback.xml
+  detection_source_url: https://github.com/thachlp/spring-data-jpa/blob/main/spring-data-envers/src/test/resources/logback.xml
+  detection_source: spring-data-envers/src/test/resources/logback.xml
   last_updated_by: Jens Schauder
   last_updated_on: 2021-09-27 08:51:09.000000000 Z
 - name: ANTLR
@@ -148,6 +161,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8585/a159037c4838e54e93d9f630a295c396_normal.jpeg
+  detection_source_url: https://github.com/thachlp/spring-data-jpa
   detection_source: Repo Metadata
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
@@ -158,4 +172,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/thachlp/spring-data-jpa
   detection_source: Repo Metadata
